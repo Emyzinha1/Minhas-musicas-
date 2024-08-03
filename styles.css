@@ -1,0 +1,65 @@
+body {
+    color: white;
+    background: rgb(85, 22, 85);
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+header {
+    background: black;
+    border-bottom: solid 1px red;
+    border-top: solid 1px red;
+    padding: 20px;
+    font-size: 32px;
+    color: red;
+    font-family: "Sankofa Display", sans-serif;
+}
+
+.meteflix {
+    background: rgb(22 9 22);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.texto {
+    margin-right: 3%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 17px;
+    margin-top: 0px;
+}
+
+.more-musics {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.musicas {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.more-musics img {
+    opacity: 0.7;
+    height: 200px;
+}
+
+.more-musics img:hover {
+    opacity: 1.0;
+    border: 1px solid blue;
+}
+
+.musicas h2 {
+    color: #167ac6;
+}
